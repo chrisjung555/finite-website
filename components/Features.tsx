@@ -7,37 +7,37 @@ const features = [
     title: "Days remaining",
     description:
       "See your year at a glance — progress, days left, weeks and weekends ahead.",
-    tag: "2026 · 42% complete",
+    tag: "Track year progress",
   },
   {
     title: "Momentum score",
     description:
       "A daily score for whether you're moving forward — not another to-do list.",
-    tag: "Momentum: 72",
+    tag: "Build momentum daily",
   },
   {
     title: "Gym tracking",
     description:
-      "Simple consistency — trained today, workouts this week, your streak.",
-    tag: "3/4 this week",
+      "Simple consistency - trained today, frequency this week, your streak.",
+    tag: "Track workouts streaks",
   },
   {
     title: "Sleep tracking",
     description:
       "Hours, quality, weekly average, and sleep consistency over time.",
-    tag: "7.2h avg",
+    tag: "Track your average sleep",
   },
   {
     title: "Life in weeks",
     description:
       "Every week is a square. A visual reminder to live intentionally.",
-    tag: "Perspective",
+    tag: "See the bigger picture",
   },
   {
     title: "iOS widgets",
     description:
       "Glanceable momentum on your home screen. Coming soon.",
-    tag: "Soon",
+    tag: "At a glance",
     soon: true,
   },
 ];

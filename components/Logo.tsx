@@ -18,7 +18,13 @@ export function Logo({ className = "", size = "md" }: LogoProps) {
       className={`inline-flex items-center font-medium uppercase ${sizes[size]} ${className}`}
       aria-label="FINITE home"
     >
-      <span className="text-muted">IN</span>
+      <span className="relative inline-block">
+        <span
+          aria-hidden
+          className="pointer-events-none absolute inset-x-0 top-1/2 h-px -translate-y-1/2 bg-white/30"
+        />
+        <span className="relative text-white/20">IN</span>
+      </span>
       <span className="text-accent">FINITE</span>
     </Link>
   );

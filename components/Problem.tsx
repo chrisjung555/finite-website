@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const insights = [
   "How much of the year has passed",
   "Whether you are building momentum",
-  "How consistent you are with gym and sleep",
+  "How consistent you are with your goals",
   "The bigger picture of your life in weeks",
 ];
 
