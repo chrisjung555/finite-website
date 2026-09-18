@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { DashboardPreview } from "./DashboardPreview";
+import { StruckIn } from "./Logo";
 
 type HeroProps = {
   year: number;
@@ -39,7 +40,7 @@ export function Hero({
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl font-light leading-[1.15] tracking-tight md:text-5xl lg:text-6xl"
           >
-            Life is finite.
+            Life is <StruckIn />finite.
             <br />
             <span className="text-gradient-accent">Make it count.</span>
           </motion.h1>

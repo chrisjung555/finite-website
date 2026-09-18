@@ -18,9 +18,14 @@ export function Momentum() {
           </div>
 
           <div className="relative">
-            <p className="text-xs uppercase tracking-[0.3em] text-muted">
-              Momentum
-            </p>
+            <div className="flex items-center justify-center gap-2">
+              <p className="text-xs uppercase tracking-[0.3em] text-muted">
+                Momentum
+              </p>
+              <span className="rounded-full border border-accent/30 bg-accent/10 px-2 py-0.5 text-[10px] uppercase tracking-wider text-accent">
+                Soon
+              </span>
+            </div>
             <h2 className="mx-auto mt-6 max-w-2xl text-3xl font-light leading-snug tracking-tight md:text-4xl">
               Not another to-do list.
             </h2>
